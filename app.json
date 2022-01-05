@@ -280,7 +280,7 @@ break
 case 'ownermenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
         if(menusimpel == false){               
-                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+                quotesnya = await fetchJson(`https://rest-api-makin.herokuapp.com/api/randomquote?apikey=Alphabot`)
 quotes = quotesnya.result.quotes
                 nomor = 1
                 stod = `${sender}`
